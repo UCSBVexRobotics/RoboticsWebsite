@@ -499,7 +499,92 @@ h4 {
   transform: translateY(-13px) rotate(-45deg);
 }
 
-/* <--------------- mobile ----------------> */
+/* <--------------- mobile, device specific ----------------> */
+
+/* Fixing navbar orientation for smaller devices */
+
+@media screen and (max-height: 340px) {
+
+  /* Scrolling offset small mobile landscape */
+  h3 {
+    scroll-margin-top: 14rem;
+    scroll-snap-margin-top: 14rem;
+  }
+}
+
+@media screen and (max-height: 375px) and (min-height: 341px) {
+
+  /* Scrolling offset large mobile landscape */
+  h3 {
+    scroll-margin-top: 10rem;
+    scroll-snap-margin-top: 10rem;
+  }
+}
+
+
+@media screen and (max-height: 569px) and (min-height: 376px) {
+  /* For small, short mobile devices like iPhone 5 in portrait mode*/
+
+  /* shorter orientations get an ugly version of the navbar */
+  .navbar.is-responsive a {
+    display: flex;
+    width:auto;
+  }
+
+  /* Scrolling offset small mobile specific */
+  h3 {
+    scroll-margin-top: 17rem;
+    scroll-snap-margin-top: 17rem;
+  }
+
+  .website-title {
+    font-size: 2rem;
+  }
+  .logo {
+    width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 570px) {
+
+  /* This is large mobile device portrait mode */
+  
+  /* Tall enough orientations to accomodate for a "row by row" nav bar */
+  .navbar.is-responsive a{
+    display: flex;
+    width: 100%;
+  }
+
+  /* Scrolling offset large mobile specific */
+  h3 {
+    scroll-margin-top: 41rem;
+    scroll-snap-margin-top: 41rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 570px) {
+
+  /* This is large mobile device landscape mode */
+  
+  /* Tall enough orientations to accomodate for a "row by row" nav bar */
+  .navbar.is-responsive a{
+    display: flex;
+    width: 100%;
+  }
+
+  /* Scrolling offset large mobile specific */
+  h3 {
+    scroll-margin-top: 41rem;
+    scroll-snap-margin-top: 41rem;
+  }
+
+  .website-title {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* <--------------- mobile most of hamburger/general rules ----------------> */
 
 @media screen and (max-width: 1024px) {
 
@@ -552,25 +637,5 @@ h4 {
     margin-bottom: 10%;
     text-align: center;
   }
-
-  /* Other misc css */
-  h3 {
-    scroll-margin-top: 41rem;
-    scroll-snap-margin-top: 41rem;
-  }
+  
 }
-
-@media screen and (max-width: 1024px) {
-  .navbar.is-responsive a{
-    display: flex;
-    width: 100%;
-  }
-}
-
-@media screen and (max-height: 569px) {
-  .navbar.is-responsive a {
-    display: flex;
-    width:auto;
-  }
-}
-
