@@ -9,7 +9,7 @@ const Navbar = () => {
         if (responsiveClass === "is-responsive") {
             setResponsive('inactive');
         }
-		document.getElementById(id).scrollIntoView(true);
+		document.getElementById(id).scrollIntoView({behavior: "smooth"});
 	}
 
     function toggleBurger() {

@@ -192,9 +192,8 @@ TODO:
 	- Figure out better if the line is a path or not or something
 - Failed password alert needs to be better, or something actually rendered on the website!
 - Mobile friendly CSS (huge task)
-	- Fix for iphone 5
+	- For small screens, turn the navbar into a grid?
 	- Fix navbars for slightly larger devices?
-	- 
 - Finish videocontainer
 - Social icons hover and color change don't match up, and Discord and envelope have a non color spot in the middle when hovering
 - Officer images link to linkedIns or websites whatever
@@ -202,4 +201,25 @@ TODO:
 - Replace br between sections with a bottom margin instead
 - Navbar component: replace <a> with button
 - Unique key, see comment by @Chris here: https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js
+
+
+Mobile website issues
+- On iPhone 8:
+	- Scroll into view is not working well, it's a bit off and isn't a clean animation
+		- Safari and Chrome
+		- Issue with iPhone 12
+		- Try
+	- Nav bar is a bit too big
+	- Top is cut off for some reason (both chrome and safari)
+- on Firefox focus/Galaxy S10
+	- When you go to technical videos and below, you can't scroll back up
+	- Scrolling to officers, and then back up works. So it's not an issue with general "scrolling up"
+	- Works on chrome
+- General:
+	- Landscape mode sucks for navbar, you scoll down... too litte? "Projects brings you to between competitions and about" for iphone 12
+	- Safari does not have "smooth scrolling" using scrollIntoview
+
+Content issues:
+- Stylization of years is inconsistent
+- There should be hyphens
 */
