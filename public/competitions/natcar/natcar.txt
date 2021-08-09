@@ -1,0 +1,15 @@
+/competitions/natcar/natcar.jpg
+
+In this competition, an autonomous robot is made to track a line course. The line course, consists of a white line that winds and crosses over itself on a black surface. The most efficient car wins. Students use their own algorithms to modify their natcar for each attempt in the race, attempting to make each one more efficient.
+
+The robot must have no more than four wheels powered by electronics. Overall the car cannot be bigger than 14″x12″x9″.
+
+The racecourse is pre-printed on a black canvas. The white line is 0.75″ wide, with designated stop and start locations on the right side of the track. The course will be announced before competition arrival. The total length is less than 20 ft. The track contains curves straight lines, cross roads of different lengths and curvatures.
+
+/competitions/natcar/maxresdefault.jpg
+
+Each team contains a maximum of five members. The team must arrive prepared with their own batteries, chargers, and a robot ready for inspection. The robot may not be charged in-between races. However, adjustments may be made.  The race begins when the robot crosses the start point and ends when the end point is reached. The robot may not be touched when moving through the course. Three attempts are given in a maximum time of five minutes. If the robot moves off the track, or is immobile for more than five seconds, the run is terminated. The team with the fastest single run wins!
+
+/competitions/natcar/natcar1.jpeg
+
+/competitions/natcar/natcar121.jpg

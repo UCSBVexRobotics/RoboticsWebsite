@@ -1,0 +1,70 @@
+{
+    "officers": [
+            {
+                "name": "Rory Zahedi",
+                "position": "President",
+                "image": "Rory.png",
+                "description": "Hello, my name is Rory! I’m a fourth CS BS/MS student and the president of the club! Academically, my interests lie in the systems area of CS, as well in programming languages. Outside of class, I recreationally enjoy weightlifting, rock climbing, surfing, and cycling! If you ever have any questions or want to just chat please contact me at neemazahedi@ucsb.edu!"
+            },
+            {
+                "name": "Steven Man",
+                "position": "External Vice President",
+                "image": "Steven.jpg",
+                "description": "Hi, I’m Steven Man, a second-year Mechanical Engineering major and I’m the VP external for the Robotics club. I love making and building and helping you with anything CAD or engineering!"
+            },
+            {
+                "name": "Rafee Qureshi",
+                "position": "Internal Vice President",
+                "image": "Rafee.jpg",
+                "description": "I am a 4th year double major in Biochemistry and Cell & Developmental Biology at UCSB.  Although not in the engineering department, I was involved in an engineering program for 4 years in high school prior to my time at UCSB and have 4 years of experience as a project lead for my high school’s VEX robotics team.  Besides this experience, I have also been a part of UCSB’s IEEE for a year and am entering both my 3rd year in UCSB’s Robotics club and 2nd year as an officer.  I look forward to meeting, teaching, and providing members, both new and old, a memorable club experience come fall 2021."
+            },
+            {
+                "name": "Jennifer Park",
+                "position": "Treasurer (Guap Guardian)",
+                "image": "Jennifer.jpg",
+                "description": "Hey I’m Jen, a third year statistics & data science and economics & accounting major. I serve as the guap guardian, guardian of the guap. In my free time, I win Cambio, read shareholder letters, and touch grass."
+            },
+            {
+                "name": "Vedad Bassari",
+                "position": "Secretary",
+                "image": "Vedad.jpg",
+                "description": "Interested in hardware design, fabrication, and integration in the context of mechatronics."
+            },
+            {
+                "name": "Erin DeLong",
+                "position": "Communications Chair",
+                "image": "Erin.jpg",
+                "description": "Hi I’m Erin and I’m a second year Computer Science major!"
+            },
+            {
+                "name": "William Huang",
+                "position": "Events Coordinator",
+                "image": "William.png",
+                "description": "Hello, my name is William Huang and I am currently a CS major at UCSB. I hope to help make the Robotics Club a fun experience for everyone. In terms of personal hobbies, I enjoy reading, playing video games, water polo, and coding in the middle of the night."
+            },
+            {
+                "name": "Matthew Ho",
+                "position": "Software Lead",
+                "image": "Matthew.jpg",
+                "description": "2nd year CS major. Relatively new to robotics, but eager to learn. Enjoys Nintendo games and bubble tea and dislikes sour foods."
+            },
+            {
+                "name": "Aditya Ramakrishnan",
+                "position": "Co-Electrical Lead",
+                "image": "Aditya.jpg",
+                "description": "Hey! I'm Aditya, a second-year Electrical Engineer and your Co-Electrical Lead for the quarter. In my free time, I love to play video games, read sci-fi, listen to music, and bike outside. I am looking forward to working with you all and learning new things along the way!"
+            },
+            {
+                "name": "Spencer Tang",
+                "position": "Co-Electrical Lead",
+                "image": "Spencer.png",
+                "description": "Hey everyone, my name is Spencer and I'm a 2nd year majoring in Computer Engineering. I'll be one of the electrical leads this year. I look forward to meeting everyone! :D"
+            },
+            {
+                "name": "Dylan Vu",
+                "position": "Webmaster",
+                "image": "Dylan.png",
+                "description": "Hey, I'm Dylan, your Webmaster! I'm about to become a third year CE (Chemical Engineering) major but I'm taking a gap year. In my spare time, I like to game with my friends and expand my knowledge of coding by tackling various side projects."
+            }
+        ]
+}
