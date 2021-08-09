@@ -1,5 +1,5 @@
 import React from 'react'
-import Collapsible from './collapsible'
+// import Collapsible from './collapsible'
 
 const VideoLibrary = (props) => {
     return (
