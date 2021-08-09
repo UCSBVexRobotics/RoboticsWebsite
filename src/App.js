@@ -207,8 +207,7 @@ Mobile website issues
 - On iPhone 8:
 	- Scroll into view is not working well, it's a bit off and isn't a clean animation
 		- Safari and Chrome
-		- Issue with iPhone 12
-		- Try
+		- Issue with iPhone 12 too
 	- Nav bar is a bit too big
 	- Top is cut off for some reason (both chrome and safari)
 - on Firefox focus/Galaxy S10
