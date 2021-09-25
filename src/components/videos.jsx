@@ -18,7 +18,7 @@ const Videos = () => {
     },[])
 
     return (
-        <div>
+        <div className="videos">
             <h3 id="videos">TECHNICAL VIDEOS</h3>
             {hasVideopassword ? <VideoLibrary/> 
             : <PasswordForm setPasswordstatus={(status) => setPasswordstatus(status)}/>}

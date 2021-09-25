@@ -131,6 +131,7 @@ h4 {
   top: 0;
   z-index: 10;
   width: 100%;
+  margin-bottom: 5em;
 }
 
 /* Navbar links */
@@ -188,11 +189,21 @@ h4 {
 
 /* <--------------- About ------------------------------> */
 
+.about {
+  margin-bottom: 5em;
+}
+
 .text {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
   font-size: 1.1em;
+}
+
+/* <------------- Section divs -------------> */
+
+.competitions, .projects, .officers, .outreach, .videos, .photos {
+  margin-bottom: 5em;
 }
 
 /* <--------------- Collapsibles ------------------> */
@@ -581,7 +592,6 @@ h4 {
   .website-title {
     font-size: 2.5rem;
   }
-
 }
 
 /* <--------------- mobile most of hamburger/general rules ----------------> */

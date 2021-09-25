@@ -4,7 +4,7 @@ import React from 'react'
 const VideoLibrary = (props) => {
     return (
         <div>
-            <p className="text">Some videos here</p>
+            <p className="text">Videos will be coming soon!</p>
         </div>
     )
 }

@@ -41,7 +41,7 @@ const Navbar = () => {
             <a className="nav-link" onClick={() => scrolling('photos')}><span>Photos</span></a>
             {/* eslint-disable-next-line */}
             <a className="nav-link" onClick={() => scrolling('contact')}><span>Contact</span></a>
-            <a className="nav-link" href="https://ucsbesc.square.site/shop/alche/6" target="_blank" rel="noopener noreferrer"><span>Merch</span></a>
+            {/* <a className="nav-link" href="https://ucsbesc.square.site/shop/alche/6" target="_blank" rel="noopener noreferrer"><span>Merch</span></a> */}
             <div className={`hamburger ${responsiveClass}`} id="hamburger" onClick={() => toggleBurger()}>
                 <span className="line"></span>
                 <span className="line"></span>

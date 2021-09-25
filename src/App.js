@@ -52,22 +52,17 @@ function App() {
 	return (
 		<div>
 			<Header/>
-
 			<Navbar/>
-
-			<br/><br/><br/>
 			<About/>
-			
-			<br/><br/><br/>
-			<div>
+
+			<div className="competitions">
 				<h3 id="competitions">COMPETITIONS</h3>
 				<Collapsible title="Coming Soon..." id="new" textPath="/competitions/newcompetition.txt" isCompetition={true}/>
 				<Collapsible title="Natcar" id="natcar" textPath="/competitions/natcar/natcar.txt" isCompetition={true}/>
 				<Collapsible title="Micromouse" id="micromouse" textPath="/competitions/micromouse/micromouse.txt" isCompetition={true}/>
 			</div>
 
-			<br/><br/><br/>
-			<div>
+			<div className="projects">
 				<h3 id="projects">PROJECTS</h3>
 				{/* <Collapsible title="Mechanical Team" id="mechanical" textPath="/projects/mechanical.txt" isCompetition={false}/> */}
 				<button type="button" className="collapsible" id="mechanical" onClick={() => {collapsible('mechanical')}}>Mechanical</button>
@@ -99,8 +94,7 @@ function App() {
 				</div>
 			</div>
 
-			<br/><br/><br/>
-			<div>
+			<div className="officers">
 				<h3 id="officers">OFFICERS</h3>
 				{/* Map every officer from the json file inside of public folder */}
 				{officers.map((officer) => (
@@ -109,19 +103,15 @@ function App() {
 				)}
 			</div>
 
-			<br /><br/><br/>
 			<Outreach/>
 			
-			<br/><br/><br/>
 			{/* The password state is inside of the passwordform component inside of the video component */}
 			<Videos/>
 
-			<br /><br/><br/>
-			<div>
+			<div className="photos">
 				<h3 id="photos">PHOTOS</h3>
 			</div>
 
-			<br /><br/><br/>
 			<h3 id="contact">SOCIAL MEDIA & CONTACT</h3>
 			<div className="social-media-container">
 				<a className="social-media-link" href="https://www.instagram.com/gauchobotics/?hl=en" target="_blank" rel="noopener noreferrer">
@@ -209,16 +199,12 @@ Mobile website issues
 		- Safari and Chrome
 		- Issue with iPhone 12 too
 	- Nav bar is a bit too big
-	- Top is cut off for some reason (both chrome and safari)
 - on Firefox focus/Galaxy S10
 	- When you go to technical videos and below, you can't scroll back up
 	- Scrolling to officers, and then back up works. So it's not an issue with general "scrolling up"
 	- Works on chrome
 - General:
-	- Landscape mode sucks for navbar, you scoll down... too litte? "Projects brings you to between competitions and about" for iphone 12
 	- Safari does not have "smooth scrolling" using scrollIntoview
 
-Content issues:
-- Stylization of years is inconsistent
-- There should be hyphens
+- For smaller devices, consider switching to a grid style nav bar? Or smarter flexbox?
 */

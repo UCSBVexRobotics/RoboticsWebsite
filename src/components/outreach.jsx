@@ -3,7 +3,7 @@ import React from 'react'
 const Outreach = () => {
 
     return(
-        <div>
+        <div className="outreach">
             <h3 id="outreach">EDUCATIONAL OUTREACH</h3>
             <p className="text">
             The Educational Outreach Division is dedicated to encourage and empower future generations to be inquisitive and inventive, to approach any problem with a curious and understanding mind, and to pursue knowledge with an ambitious spirit. At the same time, our division’s devoted team of volunteers work tirelessly to promote an inclusive, inspiring environment for children across our local community. We hope to also serve as leading examples of academic excellence and scholastic rigor, with the aim to motivate these same qualities in the students we impact.

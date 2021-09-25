@@ -5,7 +5,6 @@ title = title of the collapsible
 id = unique css id, only used for finding the collapsible in the collapsible function and has no effect on the styling
 textPath = the path of the text description of the project/competition relative to the public folder. This is a text file inside of the public/projects or public/competitions directory
     Example of valid text path prop: "/competitions/navcar.txt"
-images = images corresponding 
 isCompetition = whether it is a competition. This solely affects <h4> </h4>. If it is a competition, it will show up as: <h4>What is {props.title}?</h4>
     else, it will show: <h4>{props.title}</h4>
 */
@@ -79,7 +78,7 @@ const Collapsible = (props) => {
                         //console.log("Hi there");
                         return <img src={process.env.PUBLIC_URL + paragraph} alt={paragraph}/>
                     } else if (checkIfGithub(paragraph)) {
-                        return <p className="text"><a className="collapsible-link" href={paragraph}>{paragraph}</a></p>
+                        return <p className="text"><a className="collapsible-link" href={paragraph} target="_blank" rel="noreferrer">{paragraph}</a></p>
                     } else {
                         return <p className="text">{paragraph}</p>
                     }
