@@ -30,7 +30,7 @@ const Navbar = () => {
             {/* eslint-disable-next-line */}
             <a className="nav-link" onClick={() => scrolling('competitions')}><span>Competitions</span></a>
             {/* eslint-disable-next-line */}
-            <a className="nav-link" onClick={() => scrolling('projects')}><span>Projects</span></a>
+            {/* <a className="nav-link" onClick={() => scrolling('projects')}><span>Projects</span></a> */}
             {/* eslint-disable-next-line */}
             <a className="nav-link" onClick={() => scrolling('officers')}><span>Officers</span></a>
             {/* eslint-disable-next-line */}

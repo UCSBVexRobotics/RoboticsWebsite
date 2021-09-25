@@ -56,16 +56,15 @@ function App() {
 			<About/>
 
 			<div className="competitions">
-				<h3 id="competitions">COMPETITIONS</h3>
+				<h3 id="competitions">PROJECTS & COMPETITIONS</h3>
 				<Collapsible title="LagoonBot" id="lagoonbot" textPath="/competitions/lagoonbot/lagoonbot.txt" isCompetition={false}/>
 				<Collapsible title="BattleBots" id="battlebots" textPath="/competitions/battlebots/battlebots.txt" isCompetition={true}/>
 				<Collapsible title="Natcar" id="natcar" textPath="/competitions/natcar/natcar.txt" isCompetition={true}/>
 				<Collapsible title="Micromouse" id="micromouse" textPath="/competitions/micromouse/micromouse.txt" isCompetition={true}/>
 			</div>
 
-			<div className="projects">
+			{/* <div className="projects">
 				<h3 id="projects">PROJECTS</h3>
-				{/* <Collapsible title="Mechanical Team" id="mechanical" textPath="/projects/mechanical.txt" isCompetition={false}/> */}
 				<button type="button" className="collapsible" id="mechanical" onClick={() => {collapsible('mechanical')}}>Mechanical</button>
 				<div className="collapsible-content">
 					<h4 className="text">Project Title Here</h4>
@@ -93,7 +92,7 @@ function App() {
 					</p>
 					<br/><br/>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="officers">
 				<h3 id="officers">OFFICERS</h3>
