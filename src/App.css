@@ -40,9 +40,6 @@ h3 {
   scroll-snap-margin-top: 5rem;
 }
 
-h4 {
-  font-size: 1.25em;
-}
 /* <------------------ Scroll bar CSS --------------------> */
 
   /* width */
@@ -197,7 +194,7 @@ h4 {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 /* <------------- Section divs -------------> */
@@ -236,6 +233,13 @@ h4 {
   color: black;
 }
 
+.collapsible-title {
+  font-size: 1.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+}
+
 /* Style the collapsible content. Note: hidden by default */
 .collapsible-content {
   padding: 0 18px;
@@ -247,7 +251,7 @@ h4 {
 }
 
 .collapsible-content img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   /* margin-left: 15%;
   margin-right: 15%; */
@@ -307,7 +311,7 @@ h4 {
   opacity: 0.9;
 }
 
-.officer-name {
+.officer-overlay-name {
   color: white;
   font-weight: bold;
   font-size: 17px;
@@ -322,13 +326,17 @@ h4 {
   padding-right: 5%;
 }
 
+.officer-name {
+  font-size: 1.35em;
+}
+
 .officer-description {
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
 
 .officer-description p {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 /* <-------------- Contact CSS ----------------------> */

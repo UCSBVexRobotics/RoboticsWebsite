@@ -71,7 +71,7 @@ const Collapsible = (props) => {
         <div>
             <button type="button" className="collapsible" id={props.id} onClick={() => {collapsible(`${props.id}`)}}>{props.title}</button>
             <div className="collapsible-content">
-                <h4 className="text"> {props.isCompetition ? "What is " + props.title + "?" : props.title} </h4>
+                <h4 className="collapsible-title"> {props.isCompetition ? "What is " + props.title + "?" : props.title} </h4>
                 {paragraphs.map((paragraph) => {
                     //console.log(paragraph);
                     if (checkIfphoto(paragraph)) {

@@ -19,11 +19,11 @@ const Officer = (props) => {
                 {/* <img className="officer-image" src={require(`${props.image}`).default} alt={props.name}/> */}
                 <img className="officer-image" src={process.env.PUBLIC_URL + "officer-images/" + props.image} alt={props.name}/>
                 <div className="overlay">
-                    <div className="officer-name">{props.name}</div>
+                    <div className="officer-overlay-name">{props.name}</div>
                 </div>
             </div>
             <div className="officer-description">
-                <h4>{props.name} — {props.position}</h4>
+                <h4 className="officer-name">{props.name} — {props.position}</h4>
                 <p>{props.description}</p>
             </div>
         </div>
