@@ -108,9 +108,9 @@ function App() {
 			{/* The password state is inside of the passwordform component inside of the video component */}
 			<Videos/>
 
-			<div className="photos">
+			{/* <div className="photos">
 				<h3 id="photos">PHOTOS</h3>
-			</div>
+			</div> */}
 
 			<h3 id="contact">SOCIAL MEDIA & CONTACT</h3>
 			<div className="social-media-container">
