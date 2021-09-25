@@ -1,0 +1,19 @@
+
+
+This year, UCSB Robotics will mainly be focusing on a year-long project that involves a variety of different engineering fields: a waterproof robot to maneuver through the UCSB lagoon.
+
+competitions/lagoonbot/lagoon.jpg
+
+Anticipated core features:
+
+- Submerging and surfacing easily from water
+
+- Maneuvering through through the lagoon wirelessly
+
+- Utilizing a camera
+
+- Able to use a built in fail-safe mechanism to safely retrieve robot if power unexpectedly goes out
+
+- Displaying real-time battery level
+
+- Transmits a live video feed from the camera

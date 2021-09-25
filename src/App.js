@@ -57,7 +57,8 @@ function App() {
 
 			<div className="competitions">
 				<h3 id="competitions">COMPETITIONS</h3>
-				<Collapsible title="Coming Soon..." id="new" textPath="/competitions/newcompetition.txt" isCompetition={true}/>
+				<Collapsible title="LagoonBot" id="lagoonbot" textPath="/competitions/lagoonbot/lagoonbot.txt" isCompetition={false}/>
+				<Collapsible title="BattleBots" id="battlebots" textPath="/competitions/battlebots/battlebots.txt" isCompetition={true}/>
 				<Collapsible title="Natcar" id="natcar" textPath="/competitions/natcar/natcar.txt" isCompetition={true}/>
 				<Collapsible title="Micromouse" id="micromouse" textPath="/competitions/micromouse/micromouse.txt" isCompetition={true}/>
 			</div>
