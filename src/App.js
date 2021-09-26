@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from "./components/header"
 import Navbar from "./components/navbar"
+// import Announcements from "./components/announcements"
 import Collapsible from './components/collapsible';
 import Officer from "./components/officer"
 import Outreach from "./components/outreach"
@@ -42,6 +43,7 @@ function App() {
 			<Header/>
 			<Navbar/>
 			<About/>
+			{/* <Announcements/> */}
 
 			<div className="competitions">
 				<h3 id="competitions">PROJECTS & COMPETITIONS</h3>
