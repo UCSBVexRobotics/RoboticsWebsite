@@ -37,18 +37,6 @@ function App() {
 		getOfficerdescriptions()
 	},[])
 
-	function collapsible(id) {
-		let collapsible = document.getElementById(id);
-		collapsible.classList.toggle("collapsible-active");
-		collapsible.classList.toggle("arrow-active");
-		let content = collapsible.nextElementSibling;
-		if (content.style.maxHeight) {
-			content.style.maxHeight = null;
-		} else {
-			content.style.maxHeight = content.scrollHeight + "px";
-		} 
-	}
-
 	return (
 		<div>
 			<Header/>
@@ -98,7 +86,7 @@ function App() {
 				<h3 id="officers">OFFICERS</h3>
 				{/* Map every officer from the json file inside of public folder */}
 				{officers.map((officer) => (
-					<Officer name={officer.name} position={officer.position} image={officer.image} description={officer.description}/>
+					<Officer name={officer.name} position={officer.position} image={officer.image} description={officer.description} key={officer.name}/>
 				)
 				)}
 			</div>

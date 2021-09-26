@@ -2,7 +2,9 @@
 
 About the website:
 
-The website is hosted on Microsoft Azure and is built using ReactJS (create-react-app as a base).
+The website is hosted on Microsoft Azure and is built using ReactJS (create-react-app as a base) on NodeJS v14.15.3
+
+To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?pivots=development-environment-vscode&tabs=windows#deploy-to-azure
 
 ## Updating Officer Profiles
 1. Upload a square image of the officers inside of the `public\officer-images` directory. It must be square.
@@ -33,3 +35,4 @@ The website is hosted on Microsoft Azure and is built using ReactJS (create-reac
 3. SEO using either Next.js or Gatsby
 4. Officer portfolio/linkedin profile/whatever link they want
 5. A better system for updating content for a webmaster that doesn't know React?
+6. Fix the key in "collapsible component" to be better unique. Currently, it makes the content its key and a random number just in case you have repeated paragraphs or images, but it's just a hacky solution

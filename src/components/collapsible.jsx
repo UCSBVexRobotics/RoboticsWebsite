@@ -12,7 +12,6 @@ isCompetition = whether it is a competition. This solely affects <h4> </h4>. If 
 const Collapsible = (props) => {
 
     const [paragraphs, setParagraphs] = useState([])
-
     
     useEffect(() => {
         // Import text file and split into array divided by paragraph
@@ -73,14 +72,13 @@ const Collapsible = (props) => {
             <div className="collapsible-content">
                 <h4 className="collapsible-title"> {props.isCompetition ? "What is " + props.title + "?" : props.title} </h4>
                 {paragraphs.map((paragraph) => {
-                    //console.log(paragraph);
                     if (checkIfphoto(paragraph)) {
                         //console.log("Hi there");
-                        return <img src={process.env.PUBLIC_URL + paragraph} alt={paragraph}/>
+                        return <img key={paragraph + Math.random(1000).toString()} src={process.env.PUBLIC_URL + paragraph} alt={paragraph}/>
                     } else if (checkIfGithub(paragraph)) {
-                        return <p className="text"><a className="collapsible-link" href={paragraph} target="_blank" rel="noreferrer">{paragraph}</a></p>
+                        return <p key={paragraph + Math.random(1000).toString()} className="text"><a className="collapsible-link" href={paragraph} target="_blank" rel="noreferrer">{paragraph}</a></p>
                     } else {
-                        return <p className="text">{paragraph}</p>
+                        return <p key={paragraph + Math.random(1000).toString()} className="text">{paragraph}</p>
                     }
                     
                 }
