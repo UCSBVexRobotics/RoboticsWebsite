@@ -38,4 +38,4 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 6. Fix the key in "collapsible component" to be better unique. Currently, it makes the content its key and a random number just in case you have repeated paragraphs or images, but it's just a hacky solution
 
 ## Issues Encountered with Azure Hosting
-* All .json files are 404. See: https://stackoverflow.com/questions/12378712/loading-json-files-generates-404-errors
+* All .json files are 404. This didn't work: https://stackoverflow.com/questions/12378712/loading-json-files-generates-404-errors and also the webpack.config should be put in the public folder, not the root of the repository.
