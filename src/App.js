@@ -46,9 +46,10 @@ function App() {
 			{/* <Announcements/> */}
 
 			<div className="competitions">
-				<h3 id="competitions">PROJECTS & COMPETITIONS</h3>
+				<h3 id="competitions">CURRENT PROJECTS & COMPETITIONS</h3>
 				<Collapsible title="LagoonBot" id="lagoonbot" textPath="/competitions/lagoonbot/lagoonbot.txt" isCompetition={false}/>
 				<Collapsible title="BattleBots" id="battlebots" textPath="/competitions/battlebots/battlebots.txt" isCompetition={true}/>
+				<h3 id="competitions">PAST COMPETITIONS</h3>
 				<Collapsible title="Natcar" id="natcar" textPath="/competitions/natcar/natcar.txt" isCompetition={true}/>
 				<Collapsible title="Micromouse" id="micromouse" textPath="/competitions/micromouse/micromouse.txt" isCompetition={true}/>
 			</div>
@@ -174,6 +175,7 @@ TODO:
 - Mobile friendly CSS (huge task)
 	- For small screens, turn the navbar into a grid?
 	- Fix navbars for slightly larger devices?
+	- Make collapsible images bigger for mobile devices?
 - Finish videocontainer
 - Social icons hover and color change don't match up, and Discord and envelope have a non color spot in the middle when hovering
 - Officer images link to linkedIns or websites whatever
