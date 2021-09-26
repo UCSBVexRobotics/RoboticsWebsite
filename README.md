@@ -36,3 +36,6 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 4. Officer portfolio/linkedin profile/whatever link they want
 5. A better system for updating content for a webmaster that doesn't know React?
 6. Fix the key in "collapsible component" to be better unique. Currently, it makes the content its key and a random number just in case you have repeated paragraphs or images, but it's just a hacky solution
+
+## Issues Encountered with Azure Hosting
+* All .json files are 404. See: https://stackoverflow.com/questions/12378712/loading-json-files-generates-404-errors
