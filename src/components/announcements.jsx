@@ -75,13 +75,13 @@ const Announcements = () => {
                 // messageContentarr.forEach(paragraph => console.log(convertLinks(paragraph)))
 
                 return (
-                    <div className="announcements-message-box">
+                    <div className="announcements-message-box" key={message.content}>
                         <div className="announcements-message-sender">
                             {message.user} <span className="announcements-message-date"> {message.date} </span>
                         </div>
                         <div className="announcements-message-content">
                             {messageContentarr.map((paragraph) => (
-                                <p>{paragraph}</p>
+                                <p key={paragraph}>{paragraph}</p>
                             ))}
                         </div>
                     </div>
@@ -96,6 +96,7 @@ const Announcements = () => {
 - Actually connect to DB using useEffect
 - Implement user photos from Discord
 - Convert links into <href> somehow
+- Make this thing mobile compatible
 */
 
 export default Announcements

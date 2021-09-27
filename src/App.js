@@ -99,9 +99,10 @@ function App() {
 			{/* The password state is inside of the passwordform component inside of the video component */}
 			<Videos/>
 
-			{/* <div className="photos">
+			<div className="photos">
 				<h3 id="photos">PHOTOS</h3>
-			</div> */}
+				<p className="text">Coming Soon...!</p>
+			</div>
 
 			<h3 id="contact">SOCIAL MEDIA & CONTACT</h3>
 			<div className="social-media-container">
@@ -176,13 +177,14 @@ TODO:
 	- For small screens, turn the navbar into a grid?
 	- Fix navbars for slightly larger devices?
 	- Make collapsible images bigger for mobile devices?
+	- Fix navbar scrolling for iPhone 10 portrait
 - Finish videocontainer
+- Create mobile gallery
 - Social icons hover and color change don't match up, and Discord and envelope have a non color spot in the middle when hovering
 - Officer images link to linkedIns or websites whatever
 - Error checking for collapsible (typescript?)
 - Replace br between sections with a bottom margin instead
 - Navbar component: replace <a> with button
-- Unique key, see comment by @Chris here: https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js
 
 
 Mobile website issues
