@@ -156,8 +156,9 @@ function App() {
 					roboticsclubucsb@gmail.com
 				</a>
 			</div>
-			
-			<img className="social-image" src={process.env.PUBLIC_URL + 'social-small.jpg'} alt="UCSB Robotics Social"/>
+			<div className="social-image-container">
+				<img className="social-image" src={process.env.PUBLIC_URL + 'social-small.jpg'} alt="UCSB Robotics Social"/>
+			</div>
 		</div>
 	);
 }

@@ -7,8 +7,8 @@ const Header = () => {
             <img id="header-image" className="header-image" src={process.env.PUBLIC_URL + 'header-smallbig.jpg'} alt="UCSB Robotics Website"/>
             <div className="header-text-container">
                 <div className="header-title">
-                    <img className="logo" src={process.env.PUBLIC_URL + 'robotics_logo.png'} alt="UCSB Robotics"/>
-                    <span className="website-title">&nbsp;UCSB Robotics Club</span>
+                    <img className="logo noselect" src={process.env.PUBLIC_URL + 'robotics_logo.png'} alt="UCSB Robotics"/>
+                    <span className="website-title noselect">&nbsp;UCSB Robotics Club</span>
                 </div>
             </div>
         </div>
