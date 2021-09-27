@@ -37,5 +37,9 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 5. A better system for updating content for a webmaster that doesn't know React?
 6. Fix the key in "collapsible component" to be better unique. Currently, it makes the content its key and a random number just in case you have repeated paragraphs or images, but it's just a hacky solution
 
+## Using Azure with BlueHost
+* BlueHost Domains With Azure App: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=a#cname, https://stackoverflow.com/questions/49164731/dns-use-bluehost-domain-with-azure
+* SSL Bindings on Azure: https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings
+
 ## Issues Encountered with Azure Hosting
 * All .json files are 404. This didn't work: https://stackoverflow.com/questions/12378712/loading-json-files-generates-404-errors and also the webpack.config should be put in the public folder, not the root of the repository.
