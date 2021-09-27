@@ -87,7 +87,9 @@ const Announcements = () => {
                     </div>
                 )
             })}
-            
+            <div className="annnouncements-footer">
+                <a href="https://discord.gg/FwEhufxEuY" target="_blank" rel="noopener noreferrer">Join our Discord! </a>
+            </div>
         </div>
     )
 }
