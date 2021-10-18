@@ -46,10 +46,10 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 2. Read the steps here to create a SSL binding: https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings#create-binding. Go to step 3 and 4 to get the correct binding type for each domain.
 3. Create an **SNI Based** binding for `www.ucsbrc.com`
 4. Create an **IP SSL Based** binding for `ucsbrc.com`. This is IP based since on mobile devices, the Azure certificate is presented instead of the `ucsbrc.com` one when someone navigates to `ucsbrc.com`, and a domain mismatch warning occurs.
-![Picture of bindings](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/completed_bindings.png?raw=true)
+![Picture of bindings](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/completed_bindings.png?raw=true)
 5. Go to BlueHost and point the A name from the previous IP to the new IP located under "custom domain". By setting an IP SSL Based binding, the IP for the website is reset.
-![Picture of Azure Domain Page](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/domain_page.png?raw=true)
-![Picture of BlueHost A Name](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/bluehost_a.png?raw=true)
+![Picture of Azure Domain Page](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/domain_page.png?raw=true)
+![Picture of BlueHost A Name](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/bluehost_a.png?raw=true)
 6. This certificate will renew every year.
 
 ## Issues Encountered with Azure Hosting
