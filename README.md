@@ -17,7 +17,7 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 1. Upload an appropriately named .txt file inside of the `public\competitions` or `public\projects`
     * Think of the text file as what you'll see in the collapsible. Put two spaces to separate paragraphs, and put images where you want them to go in between paragraphs. At the moment, putting images next to words is not supported.
         * To properly embed images, put the path to the image as if you were already in the public folder. So, if the image was located in `/public/competititons/micromouse/micromouse.png`, inside of the `micromouse.txt` file, you would put: `competititons/micromouse/micromouse.png`.
-        * If the image is showing up as the path in plain text, such as ``competititons/micromouse/micromouse.png`, try to check the `collapsible.jsx` component's `checkIfphoto` function to make sure the file extension is supported. Add it in if it's not.
+        * If the image is showing up as the path in plain text, such as `competititons/micromouse/micromouse.png`, try to check the `collapsible.jsx` component's `checkIfphoto` function to make sure the file extension is supported. Add it in if it's not.
         * If the image is not found (like there's a weird icon/square), check to see if the path and the file name is correct.
     * If a bunch of weird html looking text shows up, either refresh the page or double check your `.txt` file path
 2. Add the `<Collapsible />` component with the correct props, referencing the correct path to the .txt file and adding the correct props (please see `collapsible.jsx` comments for details) 
