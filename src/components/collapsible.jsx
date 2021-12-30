@@ -17,7 +17,7 @@ const Collapsible = (props) => {
         // Import text file and split into array divided by paragraph
         const getParagraphs = () => {
         // eslint-disable-next-line
-        fetch(props.textPath)
+        fetch(process.env.PUBLIC_URL + "/" + props.textPath)
             .then(r => r.text())
             .then(text => {
                 setParagraphs(text.split("\n"))
@@ -74,7 +74,7 @@ const Collapsible = (props) => {
                 {paragraphs.map((paragraph) => {
                     if (checkIfphoto(paragraph)) {
                         //console.log("Hi there");
-                        return <img key={paragraph + Math.random(1000).toString()} src={process.env.PUBLIC_URL + paragraph} alt={paragraph}/>
+                        return <img key={paragraph + Math.random(1000).toString()} src={process.env.PUBLIC_URL + "/" + paragraph} alt={paragraph}/>
                     } else if (checkIfGithub(paragraph)) {
                         return <p key={paragraph + Math.random(1000).toString()} className="text"><a className="collapsible-link" href={paragraph} target="_blank" rel="noreferrer">{paragraph}</a></p>
                     } else {

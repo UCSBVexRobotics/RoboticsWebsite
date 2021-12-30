@@ -24,7 +24,7 @@ const Navbar = () => {
     return(
         <nav className={`navbar ${responsiveClass}`} id="navbar">
             {/* eslint-disable-next-line */}
-            <a className="nav-link" onClick={() => scrolling('header')}><img className="logo-nav" src={process.env.PUBLIC_URL + 'robotics_logo.png'} alt="UCSB Robotics"/></a>
+            <a className="nav-link" onClick={() => scrolling('header')}><img className="logo-nav" src={process.env.PUBLIC_URL + '/robotics_logo.png'} alt="UCSB Robotics"/></a>
             {/* eslint-disable-next-line */}
             <a className="nav-link" onClick={() => scrolling('about')}><span>About</span></a>
             {/* eslint-disable-next-line */}

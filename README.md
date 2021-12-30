@@ -2,7 +2,7 @@
 
 About the website:
 
-The website is hosted on Microsoft Azure and is built using ReactJS (create-react-app as a base) on NodeJS v14.15.3
+The website is hosted on GitHub pages and is built using ReactJS (create-react-app as a base)
 
 To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?pivots=development-environment-vscode&tabs=windows#deploy-to-azure
 
@@ -37,22 +37,3 @@ To deploy to Azure for the first time, follow: https://docs.microsoft.com/en-us/
 4. Officer portfolio/linkedin profile/whatever link they want
 5. A better system for updating content for a webmaster that doesn't know React?
 6. Fix the key in "collapsible component" to be better unique. Currently, it makes the content its key and a random number just in case you have repeated paragraphs or images, but it's just a hacky solution
-
-## Using Azure with BlueHost
-* BlueHost Domains With Azure App: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=a#cname, https://stackoverflow.com/questions/49164731/dns-use-bluehost-domain-with-azure
-
-## Configuring HTTPS With a CDN and Azure
-1. Read the steps here to create a free certificate: https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate#create-a-free-managed-certificate. Do this for both domain names: `ucsbrc.com` AND `www.ucsbrc.com`. Yes, they are different and you need to do it for both.
-2. Read the steps here to create a SSL binding: https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings#create-binding. Go to step 3 and 4 to get the correct binding type for each domain.
-3. Create an **SNI Based** binding for `www.ucsbrc.com`
-4. Create an **IP SSL Based** binding for `ucsbrc.com`. This is IP based since on mobile devices, the Azure certificate is presented instead of the `ucsbrc.com` one when someone navigates to `ucsbrc.com`, and a domain mismatch warning occurs.
-![Picture of bindings](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/completed_bindings.PNG?raw=true)
-5. Go to BlueHost and point the A name from the previous IP to the new IP located under "custom domain". By setting an IP SSL Based binding, the IP for the website is reset.
-![Picture of Azure Domain Page](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/domain_page.PNG?raw=true)
-&nbsp;
-![Picture of BlueHost A Name](https://github.com/UCSBVexRobotics/RoboticsWebsite/blob/main/README_images/bluehost_a.png?raw=true)
-6. This certificate will renew every year.
-
-## Issues Encountered with Azure Hosting
-* All .json files are 404. Make sure the webpack.config is set up correctly: https://stackoverflow.com/questions/12378712/loading-json-files-generates-404-errors and also the webpack.config should be put in the **public folder**, not the root of the repository.
-* Mobile browsers had a domain mismatch error for `ucsbrc.com` regarding the security certificate. This was solved by creating an IP SSL Based binding for `ucsbrc.com`.

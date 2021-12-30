@@ -17,7 +17,7 @@ const Officer = (props) => {
         <div className="officer-section">
             <div className="officer-image-container">
                 {/* <img className="officer-image" src={require(`${props.image}`).default} alt={props.name}/> */}
-                <img className="officer-image" src={process.env.PUBLIC_URL + "officer-images/" + props.image} alt={props.name}/>
+                <img className="officer-image" src={process.env.PUBLIC_URL + "/officer-images/" + props.image} alt={props.name}/>
                 <div className="overlay">
                     <div className="officer-overlay-name">{props.name}</div>
                 </div>

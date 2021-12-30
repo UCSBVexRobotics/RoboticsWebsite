@@ -4,10 +4,10 @@ const Header = () => {
     
     return(
         <div className="header" id="header">
-            <img id="header-image" className="header-image" src={process.env.PUBLIC_URL + 'header-smallbig.jpg'} alt="UCSB Robotics Website"/>
+            <img id="header-image" className="header-image" src={process.env.PUBLIC_URL + '/header-smallbig.jpg'} alt="UCSB Robotics Website"/>
             <div className="header-text-container">
                 <div className="header-title">
-                    <img className="logo noselect" src={process.env.PUBLIC_URL + 'robotics_logo.png'} alt="UCSB Robotics"/>
+                    <img className="logo noselect" src={process.env.PUBLIC_URL + '/robotics_logo.png'} alt="UCSB Robotics"/>
                     <span className="website-title noselect">&nbsp;UCSB Robotics Club</span>
                 </div>
             </div>

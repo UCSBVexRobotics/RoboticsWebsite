@@ -18,24 +18,23 @@ function App() {
 
 	// Import officer information from the json, see readme
 	const getOfficerdescriptions = () => {
-		fetch('officers.json'
-		,{
+		fetch(process.env.PUBLIC_URL + '/officers.json' ,{
 			headers : { 
 				'Content-Type': 'application/json',
 				'Accept': 'application/json'
 			}
-		}
-		)
-			.then((response) => {
-				return response.json();
-			})
-			.then((officerJson) => {
+		}).then(async (response) => {
+			console.log(response)
+			const officerJson = await response.json();
+			console.log(officerJson)
+			if (officerJson) {
 				checkOfficers(officerJson.officers)
 				setOfficers(officerJson.officers);
-			})
+			}
+		}).catch((error) => console.error(error))
 	}
 	useEffect(() => {
-		getOfficerdescriptions()
+		getOfficerdescriptions();
 	},[])
 
 	return (
@@ -157,7 +156,7 @@ function App() {
 				</a>
 			</div>
 			<div className="social-image-container">
-				<img className="social-image" src={process.env.PUBLIC_URL + 'social-small.jpg'} alt="UCSB Robotics Social"/>
+				<img className="social-image" src={process.env.PUBLIC_URL + '/social-small.jpg'} alt="UCSB Robotics Social"/>
 			</div>
 		</div>
 	);
