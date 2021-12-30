@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RoboticsWebsite/static/css/main.0a53e612.chunk.css",
+    "main.js": "/RoboticsWebsite/static/js/main.ea997185.chunk.js",
+    "main.js.map": "/RoboticsWebsite/static/js/main.ea997185.chunk.js.map",
+    "runtime-main.js": "/RoboticsWebsite/static/js/runtime-main.11f10496.js",
+    "runtime-main.js.map": "/RoboticsWebsite/static/js/runtime-main.11f10496.js.map",
+    "static/js/2.e064ca1f.chunk.js": "/RoboticsWebsite/static/js/2.e064ca1f.chunk.js",
+    "static/js/2.e064ca1f.chunk.js.map": "/RoboticsWebsite/static/js/2.e064ca1f.chunk.js.map",
+    "static/js/3.8b4dcb77.chunk.js": "/RoboticsWebsite/static/js/3.8b4dcb77.chunk.js",
+    "static/js/3.8b4dcb77.chunk.js.map": "/RoboticsWebsite/static/js/3.8b4dcb77.chunk.js.map",
+    "index.html": "/RoboticsWebsite/index.html",
+    "static/css/main.0a53e612.chunk.css.map": "/RoboticsWebsite/static/css/main.0a53e612.chunk.css.map",
+    "static/js/2.e064ca1f.chunk.js.LICENSE.txt": "/RoboticsWebsite/static/js/2.e064ca1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11f10496.js",
+    "static/js/2.e064ca1f.chunk.js",
+    "static/css/main.0a53e612.chunk.css",
+    "static/js/main.ea997185.chunk.js"
+  ]
+}

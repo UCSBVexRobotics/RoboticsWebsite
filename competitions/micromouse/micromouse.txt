@@ -1,0 +1,9 @@
+competitions/micromouse/micromouse.jpeg
+
+Micromouse is an event where each group must design and construct small, mouse-like robots that can solve and efficiently run through a 16 x 16 unit square maze. These robots must autonomously run through the maze while meeting all of the requirements to prevent disqualification.
+
+The length and width of the micromouse must be no bigger than 25 cm x 25 cm. The height of the mouse has no restrictions. The mouse must stay intact during the run. The mouse may not jump or scale the walls of the maze. The mouse may not damage any part of the maze during its run. The total cost of the mouse can not exceed $500.
+
+The micromouse will have 10 minutes to run through the maze, for up to a maximum of 10 runs. The mouse may not be touched while completing a run. A run begins when the mouse leaves the start square. The fastest run that successfully makes it to the center four squares of the maze will count. The fastest of the competition will win!
+
+competitions/micromouse/micromouse1.jpeg

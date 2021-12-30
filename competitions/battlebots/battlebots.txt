@@ -1,0 +1,5 @@
+competitions/battlebots/battlebots.jpg
+
+BattleBots is a robotic combat competition (and TV series) where robots fight against each other to reign supreme in the arena and win it all!
+
+This year, UCSB Robotics will be aiming to design a robot to compete in the 2022 season of the international BattleBots organization.
